@@ -25,19 +25,16 @@ int main() {
             }
         }
 
-<<<<<<< HEAD
         printf("Geracao %d - Melhor fitness: %d\n", generation, best_fitness);
         display_individual_path(&best);
 
         if(best_fitness >= 1000) {
             printf("\nSolucao encontrada!\n");
-=======
-        printf("Geraçao %d - Melhor fitness: %d\n", generation, best_fitness);
+            printf("Geraçao %d - Melhor fitness: %d\n", generation, best_fitness);
         display_individual_path(&best);
 
         if(best_fitness >= 1000) {
             printf("\nSoluçao encontrada!\n");
->>>>>>> fe07b40658ac0c79b6157209503a262a0571c329
             printf("Movimentos: ");
             for(int i = 0; i < MAX_MOVES; i++) {
                 printf("%c ", best.moves[i]);
